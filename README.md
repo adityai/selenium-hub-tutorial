@@ -2,10 +2,10 @@
 
 ## Hub
 ### Basic startup of hub 
-`java -jar selenium-server-standalone.jar -role hub
+`java -jar selenium-server-standalone.jar -role hub`
 
 ### Start hub with json config file
-`java -jar selenium-server-standalone.jar -role hub -hubConfig hubConfig.json -debug
+`java -jar selenium-server-standalone.jar -role hub -hubConfig hubConfig.json -debug`
 
 ### Sample hubConfig.json
 `{
@@ -25,18 +25,18 @@
 `
 
 ### Start hub with logging
-`java -jar selenium-server-standalone.jar -role hub -log log.txt
+`java -jar selenium-server-standalone.jar -role hub -log log.txt`
 
 ### Start hub in debug mode
-`java -jar selenium-server-standalone.jar -role hub -debug
+`java -jar selenium-server-standalone.jar -role hub -debug`
 
 
 ## Node
 ### Basic startup of node
-`java -jar selenium-server-standalone.jar -role node -hub http://localhost:4444
+`java -jar selenium-server-standalone.jar -role node -hub http://localhost:4444`
 
 ### Start node with json config file
-`java -Dwebdriver.chrome.driver=chromedriver.exe -jar selenium-server-standalone.jar -role node -nodeConfig node1Config.json
+`java -Dwebdriver.chrome.driver=chromedriver.exe -jar selenium-server-standalone.jar -role node -nodeConfig node1Config.json`
 
 ### Sample node1Config.json
 `
